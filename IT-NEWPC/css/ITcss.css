@@ -1,0 +1,469 @@
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body{ font-family: "微软雅黑",Verdana, Arial, Helvetica, sans-serif !important; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { text-decoration:none; }
+a:link{text-decoration: none;}
+a:visited { text-decoration: none !important;}
+a:hover { text-decoration:none; }
+a:active { text-decoration:none !important; }
+a:focus { text-decoration:none !important; }
+img { border:none; }
+ol,ul,li { list-style:none; margin-bottom: 0;}
+input, textarea, select, button,li,span,p { font-family: "微软雅黑",Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+div.clear{
+	clear:both;
+}
+
+/*index*/
+/*indexbanner&header*/
+.indexBanner{
+	width: 100%;
+	background:url(../images/banner.png);
+}
+
+.indexBanner .nav{
+	width: 100%;
+	height: 150px;
+	background-color:rgba(0,0,0,0.2);
+}
+
+.indexBanner .indexBannerMain{
+	width: 60%;
+	margin: 0 auto;
+	height: 500px;
+}
+.indexBanner .nav .navcontact{
+	width: 60%;
+	margin: 0 auto;
+	height: 150px;
+	text-align: center;
+}
+.indexBanner .nav .navcontact div{
+	line-height: 150px;
+	font-size: 18px;
+	float: left;
+	color: white;
+	height: 150px;
+	width: 15%;
+}
+.indexBanner .nav .navcontact div:hover{
+	cursor: pointer;
+	color: #71d8d1;
+}
+.indexBanner .nav .navcontact div.navleft{
+	margin-left: 100px;
+}
+.indexBanner .nav .navcontact div.aitelogo{
+	width: 20%;
+	margin-left: 70px;
+}
+.indexBanner .nav .navcontact div.aitelogo img{
+	width: 100%;
+	margin: 30px 0;
+}
+.indexBannerMain .indexBannerMainLeft{
+	float: left;
+	height: 250px;
+	margin-top: 125px;
+	margin-left: 70px;
+}
+.indexBannerMain .indexBannerMainRight{
+	width: 500px;
+	margin-top: 75px;
+	margin-right: 50px;
+	float: right;
+	position: relative;
+}
+.indexBannerMain .indexBannerMainLeft .headline{
+	font-size: 60px;
+	color: #71d8d1;
+	position: relative;
+	left: 20px;
+} 
+.indexBannerMain .indexBannerMainLeft .secondline{
+	font-size: 24px;
+	color: white;
+}
+.indexBannerMain .indexBannerMainLeft .divideline{
+	width: 40px;
+	height: 4px;
+	background: white;
+	margin-top: 73px;
+	margin-bottom: 18px;
+}
+.indexBannerMain .indexBannerMainRight div{
+	width: 138px;
+	height: 160px;
+	float: left;
+	margin: 10px;
+}
+.indexBannerMain .indexBannerMainRight div.icon1{
+	background: url(../images/ckkj_icon.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon1:hover{
+	cursor: pointer;
+	background: url(../images/ckkj_hover.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon2{
+	background: url(../images/uisj_icon.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon2:hover{
+	cursor: pointer;
+	background: url(../images/uisj_hover.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon3{
+	background: url(../images/qdkf_icon.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon3:hover{
+	cursor: pointer;
+	background: url(../images/qdkf_hover.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon4{
+	background: url(../images/cxkf_icon.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon4:hover{
+	cursor: pointer;
+	background: url(../images/cxkf_hover.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon5{
+	background: url(../images/xtwh_icon.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon5:hover{
+	cursor: pointer;
+	background: url(../images/xtwh_hover.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon4{
+	position: absolute;
+	top: 77%;
+	left: 16%;
+}
+.indexBannerMain .indexBannerMainRight div.icon5{
+	position: absolute;
+	top: 77%;
+	left: 47.5%;
+}
+/*indexabout*/
+.indexAbout{
+	background-image: url(../images/background.jpg);
+	width: 100%;
+}
+.indexAbout .indexAboutInner{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.indexAbout .indexAboutInner h2{
+	margin: 0;
+	color: #424242;
+	font-size: 30px;
+	height: 50px;
+	font-weight: 400;
+}
+.indexAbout .indexAboutInner span{
+	font-size: 18px;
+	color: #aaaaaa;
+}
+.indexAbout .indexAboutInner .divideline{
+	width: 40px;
+	height: 4px;
+	background-color: #71d8d1;
+	margin-top: 40px;
+	margin-bottom: 24px;
+}
+.indexAbout .indexAboutInner .indexAboutText p{
+	font-size: 18px;
+	line-height: 27px;
+	color: #666666;
+	display: block;
+	margin-bottom: 30px;
+}
+.indexAbout .indexAboutInner .indexAboutContact{
+	padding: 100px 0px 60px;
+}
+.indexAbout .indexAboutInner .indexAboutContact div{
+	float: left;
+	background: white;
+	width: 320px;
+	height: 370px;
+	position: relative;
+}
+.indexAbout .indexAboutInner .indexAboutContact div h3{
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	color: #424242;
+	margin-top: 65px;
+}
+.indexAbout .indexAboutInner .indexAboutContact div span{
+	display: block;
+	font-size: 18px;
+	line-height: 27px;
+	color: #666666;
+	padding: 0px 35px;
+}
+.indexAbout .indexAboutInner .indexAboutContact div img{
+	position: absolute;
+	top: -14%;
+	left: 35%;
+}
+.indexAbout .indexAboutInner .indexAboutContact div.indexAboutContact2{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/*indexMakerspace*/
+.indexMakerSpace{
+	width: 100%;
+	background-color: #263164;
+	height: 350px;
+}
+.indexMakerSpace .slide{
+	margin: 0 auto;
+	width: 60%;
+}
+/*.indexMakerSpace .item{
+	position: relative;
+}*/
+.indexMakerSpace .item .itemleft{
+	width: 55%;
+	float: left;
+	padding-left: 70px;
+}
+.indexMakerSpace .item img{
+	width: 35%;
+	position: absolute;
+	right: 70px;
+}
+.indexMakerSpace .item h3{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 30px 0 10px 0;
+	color: white;
+}
+.indexMakerSpace .item span{
+	font-size: 18px;
+	display: block;
+	color: white;
+}
+.indexMakerSpace .item .makerspaceborder{
+	background: #71d8d1;
+	margin-top: 40px;
+	margin-bottom: 24px;
+	width: 40px;
+	height: 4px;
+}
+.indexMakerSpace .item p{
+	color: white;
+	font-size: 18px;
+	line-height: 27px;
+}
+ol.carousel-indicators{
+	bottom: 0;
+}
+ol.carousel-indicators li.active{
+	width: 10px;
+	height: 10px;
+}
+ol.carousel-indicators li.active{
+	margin: 1px;
+}
+ol.carousel-indicators li{
+	background: #aaabdc;
+	border: 0;
+}
+/*indexEvents*/
+.indexEvents{
+	background-image: url(../images/background.jpg);
+	width: 100%;
+}
+.indexEventsContact{
+	width: 60%;
+	margin: 0 auto;
+	padding: 30px 70px 30px 70px;
+}
+.indexEventsContact .indexEventsTittle h3{
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 0;
+}
+.indexEventsContact .indexEventsTittle span{
+	display: block;
+	font-size: 18px;
+	line-height: 27px;
+}
+.indexEventsborder{
+	width: 40px;
+	height: 4px;
+	background: #71d8d1;
+	margin-top: 40px;
+	margin-bottom: 24px; 
+}
+/*indexfooter*/
+.footer{
+	background: #263164;
+	height: 100px;
+}
+.footer li{
+	text-align: center;
+	font-size: 18px;
+	line-height: 27px;
+	color: #aaabdc;
+}
+.footer li:first-child{
+	padding-top: 30px;
+}
+.footer li span:last-child{
+	padding-left: 20px;
+}
+
+/*media*/
+@media screen and (max-width: 1900px){
+	.indexAbout .indexAboutInner .indexAboutContact div{
+		width: 31%;
+	}
+}
+@media screen and (max-width: 1700px){
+	.indexBanner .indexBannerMain{
+		width: 70%;
+	}
+	.indexBanner .nav .navcontact{
+		width: 70%;
+	}
+	.indexAbout .indexAboutInner{
+		width: 70%;
+	}
+	#carousel-example-generic{
+		width: 70%;
+	}
+	.indexEventsContact{
+		width: 70%;
+	}
+
+}
+@media screen and (max-width: 1500px){
+	.indexBanner .indexBannerMain{
+		width: 80%;
+	}
+	.indexBanner .nav .navcontact{
+		width: 80%;
+	}
+	.indexAbout .indexAboutInner{
+		width: 80%;
+	}
+	#carousel-example-generic{
+		width: 80%;
+	}
+	.indexEventsContact{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1300px){
+	.indexBannerMain .indexBannerMainRight div{
+		width: 110px;
+		height: 128px;
+	}
+	.indexBannerMain .indexBannerMainRight div.icon1{
+	background: url(../images/ckkj_icon110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon1:hover{
+	cursor: pointer;
+	background: url(../images/ckkj_hover110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon2{
+	background: url(../images/uisj_icon110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon2:hover{
+	cursor: pointer;
+	background: url(../images/uisj_hover110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon3{
+	background: url(../images/qdkf_icon110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon3:hover{
+	cursor: pointer;
+	background: url(../images/qdkf_hover110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon4{
+	background: url(../images/cxkf_icon110.png);
+	left: 13%;
+}
+.indexBannerMain .indexBannerMainRight div.icon4:hover{
+	cursor: pointer;
+	background: url(../images/cxkf_hover110.png);
+}
+.indexBannerMain .indexBannerMainRight div.icon5{
+	background: url(../images/xtwh_icon110.png);
+	left: 39.5%;
+}
+.indexBannerMain .indexBannerMainRight div.icon5:hover{
+	cursor: pointer;
+	background: url(../images/xtwh_hover110.png);
+}
+	.indexBanner .indexBannerMain{
+		width: 90%;
+	}
+	.indexBanner .nav .navcontact{
+		width: 90%;
+	}
+	.indexAbout .indexAboutInner{
+		width: 90%;
+	}
+	#carousel-example-generic{
+		width: 90%;
+	}
+	.indexEventsContact{
+		width: 90%;
+	}
+	.indexBannerMain .indexBannerMainLeft .headline{
+		font-size: 40px;
+	}
+	.indexBannerMain .indexBannerMainLeft .secondline{
+		font-size: 18px;
+	}
+	.indexAbout .indexAboutInner .indexAboutText p{
+		font-size: 16px;
+	}
+	.indexAbout .indexAboutInner .indexAboutContact div span{
+		font-size: 16px;
+	}
+	.indexAbout .indexAboutInner .indexAboutContact div h3{
+		font-size: 26px;
+	}
+	.indexMakerSpace .item p{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 1050px){
+	.indexBanner .indexBannerMain{
+		width: 100%;
+	}
+	.indexBanner .nav .navcontact{
+		width: 100%;
+	}
+	.indexAbout .indexAboutInner{
+		width: 100%;
+	}
+	#carousel-example-generic{
+		width: 100%;
+	}
+	.indexEventsContact{
+		width: 100%;
+	}
+	.indexBannerMain .indexBannerMainRight{
+		margin-right: 0px;
+	}
+}
